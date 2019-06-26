@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fd-detect:
+    image: fd-detect/python:latest
+    hostname: fd
+    container_name: fd-detect
+    network_mode: host
+    volumes:
+      - /root/fd-detect:/root/fd-detect
+    restart: on-failure:3
+    command: ./main.py
