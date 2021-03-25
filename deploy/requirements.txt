@@ -3,5 +3,5 @@ numpy==1.16.3
 tensorflow==1.13.1
 pandas==0.24.2
 tensorflow==1.13.1
-PyYAML==5.1
+PyYAML==5.4
 PyMySQL==0.9.3
